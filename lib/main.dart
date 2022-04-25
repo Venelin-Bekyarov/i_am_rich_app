@@ -9,6 +9,9 @@ void main() {
           title: const Text('I am rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Image(
+          image:NetworkImage('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg')
+        ),
       ),
     ),
   );
